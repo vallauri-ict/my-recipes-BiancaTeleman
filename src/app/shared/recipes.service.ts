@@ -34,4 +34,12 @@ export class RecipesService {
       console.error(error);
     })
   }
+
+  /*postRecipe(recipe:RecipeModel){
+    this.dataStorageService.sendPostRequest('recipes',recipe).subscribe(
+      data=>{
+        this.getRecipes();
+      }
+    )
+  }*/
 }
